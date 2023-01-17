@@ -27,6 +27,8 @@ This project utilizes Azure's Text Analytics API to extract and analyze text fro
 1. Test your application: Test your application by visiting the URL of your Web App in a browser.
 1. Monitor your application: Go to the Azure portal and monitor your application's performance, you can also use Azure Monitor to track and diagnose issues.
 
+> Once the Web App is created, you will have a URL that you can use to access your application, you can also use custom domains to make it more user friendly.
+
 ---
 
 ## Requirements

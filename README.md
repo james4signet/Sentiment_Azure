@@ -43,3 +43,18 @@ To run the project you will need the following files:
 1. You'll also need to set up an Azure account and create a Text Analytics resource and get the endpoint and subscription key, you will also need to 1. install the azure-ai-textanalytics library via pip by running pip install azure-ai-textanalytics
 
 > Additionally, you'll need to set up a web server to host the HTML, JavaScript, and CSS files and run the Flask file. You can use a cloud service such as Google Cloud or Azure to host the web server.
+
+
+## Dependencies
+
+> Flask file that creates a web server and maps URLs to specific functions in the Python script.
+JavaScript file that contains the code to handle the form submission, send the HTTP requests, and display the results on the web page.
+HTML file that defines the structure of the web page and includes the JavaScript file.
+CSS file that contains the styling rules for the web page, this file is optional but it will make the report more user friendly.
+You may also need the following files:
+
+* A requirements.txt file that lists all the python packages that your application depends on. This is used by Azure Web App to install the dependencies automatically.
+
+* A web.config file that contains the configuration settings for the IIS (Internet Information Services) web server that runs on Azure Web App. This file is required when you're deploying your application on a Windows-based Web App.
+
+* A .gitignore file that lists the files and directories that you don't want to include in your git repository. this file is used when you are deploying your application using Git.

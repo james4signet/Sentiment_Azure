@@ -1,6 +1,10 @@
 # Sentiment_Azure
 Using Azure Cloud for Sentiment Analysis
 
+## Description
+
+This project utilizes Azure's Text Analytics API to extract and analyze text from a website's URL. The user inputs a website's URL into an HTML form, and the JavaScript file sends a POST request to a Flask server that runs a Python script. The Python script uses the Azure Text Analytics API to extract key phrases, classify entities, and analyze sentiment from the website's text. The Flask server then returns the results as a JSON object, which the JavaScript file displays on the web page in a table format. The user can also enhance the visual representation of the report by using an accompanying CSS file. The project is hosted on a cloud service such as Azure or Google Cloud. The project could be used by businesses and organizations to gain insight into the content of a website and its sentiment.
+
 
 ## Requirements
 
